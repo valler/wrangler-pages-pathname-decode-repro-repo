@@ -1,5 +1,7 @@
 # Wrangler Pages Pathname Decode Repro Repo
 
+For issue [#5721](https://github.com/cloudflare/workers-sdk/issues/5721).
+
 ## Observed behavior
 
 Using `wrangler pages dev` for local development does not find files at paths
