@@ -1,0 +1,12 @@
+{
+  "name": "@valler/wrangler-pages-pathname-decode-repro-repo",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Valerij",
+    "email": "hi@valerij.me"
+  },
+  "devDependencies": {
+    "wrangler": "^3.52.0"
+  }
+}
