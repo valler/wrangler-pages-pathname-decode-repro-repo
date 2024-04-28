@@ -12,10 +12,10 @@ which require URL decoding and a redirect, e.g. when the pathname contains
 # ok
 curl -L http://localhost:8788/index.html
 
-# ok (client encodes as pathname as `/%C3%A4.txt`)
+# ok (client encodes pathname as `/%C3%A4.txt`)
 curl http://localhost:8788/ä.txt
 
-# ok (client encodes as pathname as `/%C3%B6`)
+# ok (client encodes pathname as `/%C3%B6`)
 curl http://localhost:8788/ö
 
 # ok
@@ -48,10 +48,10 @@ It should find the files matching the decoded pathnames.
 # ok
 curl -L http://localhost:8788/index.html
 
-# ok (client encodes as pathname as `/%C3%A4.txt`)
+# ok (client encodes pathname as `/%C3%A4.txt`)
 curl http://localhost:8788/ä.txt
 
-# ok (client encodes as pathname as `/%C3%B6`)
+# ok (client encodes pathname as `/%C3%B6`)
 curl http://localhost:8788/ö
 
 # ok
