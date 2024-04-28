@@ -25,7 +25,7 @@ curl http://localhost:8788/%C3%A4.txt
 curl http://localhost:8788/%C3%A4/
 
 # [wrangler:inf] GET /%e4/ 404 Not Found
-curl -L  http://localhost:8788/%C3%A4/index.html
+curl -L http://localhost:8788/%C3%A4/index.html
 
 # [wrangler:inf] GET /%e4/ 404 Not Found
 curl -L http://localhost:8788/%C3%A4
