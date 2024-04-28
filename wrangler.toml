@@ -1,2 +1,3 @@
 name="wrangler-pages-pathname-decode-repro-repo"
 compatibility_date = "2024-04-27"
+pages_build_output_dir = "dist"
